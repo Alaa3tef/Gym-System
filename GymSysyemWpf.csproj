@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="admin-svgrepo-com.png" />
+    <None Remove="athlete-svgrepo-com.png" />
+    <None Remove="backgym.png" />
+    <None Remove="bottle-water-svgrepo-com.png" />
+    <None Remove="buy %282%29.png" />
+    <None Remove="buyer-account-svgrepo-com.png" />
+    <None Remove="Coach %283%29.png" />
+    <None Remove="gym-dumbbell-svgrepo-com.png" />
+    <None Remove="gymLog.png" />
+    <None Remove="images\password.png" />
+    <None Remove="Machine.png" />
+    <None Remove="max.png" />
+    <None Remove="money-send-svgrepo-com.png" />
+    <None Remove="muscle-svgrepo-com.png" />
+    <None Remove="password.png" />
+    <None Remove="photo_2023-02-25_17-53-59.jpg" />
+    <None Remove="Protein %282%29.png" />
+    <None Remove="reception %282%29.png" />
+    <None Remove="reception-2-svgrepo-com.png" />
+    <None Remove="Trainee %282%29.png" />
+    <None Remove="username.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="MahApps.Metro.IconPacks.Material" Version="4.11.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="admin-svgrepo-com.png" />
+    <Resource Include="athlete-svgrepo-com.png" />
+    <Resource Include="bottle-water-svgrepo-com.png" />
+    <Resource Include="buy (2).png" />
+    <Resource Include="buyer-account-svgrepo-com.png" />
+    <Resource Include="Coach (3).png" />
+    <Resource Include="gym-dumbbell-svgrepo-com.png" />
+    <Resource Include="gymLog.png" />
+    <Resource Include="images\backgym.png" />
+    <Resource Include="images\password.png" />
+    <Resource Include="images\username.png" />
+    <Resource Include="Machine.png" />
+    <Resource Include="max.png" />
+    <Resource Include="money-send-svgrepo-com.png" />
+    <Resource Include="muscle-svgrepo-com.png" />
+    <Resource Include="photo_2023-02-25_17-53-59.jpg" />
+    <Resource Include="Protein (2).png" />
+    <Resource Include="reception (2).png" />
+    <Resource Include="reception-2-svgrepo-com.png" />
+    <Resource Include="Trainee (2).png" />
+  </ItemGroup>
+
+</Project>

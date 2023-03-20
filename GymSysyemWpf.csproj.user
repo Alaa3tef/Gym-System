@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AdminLogin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CoachAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MachineAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="machineUpdated.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ProtienAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ProtienUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="receptionistUpdated.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReciptionistAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReciptionistWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TraineeAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TraineeUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateCoach.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VendorAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VendorUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AdminLogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CoachAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MachineAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="machineUpdated.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ProtienAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ProtienUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="receptionistUpdated.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReciptionistAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReciptionistWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\ButtonStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\UIColors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TraineeAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TraineeUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateCoach.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VendorAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VendorUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
